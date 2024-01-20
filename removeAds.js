@@ -11,8 +11,6 @@
 
 (async function() {
     'use strict';
-    // Your code to be executed on page load goes here
-    console.log('Page loaded!');
     function sleep(milliseconds) {
         return new Promise(resolve => setTimeout(resolve, milliseconds));
     }
